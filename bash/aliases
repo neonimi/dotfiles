@@ -1,0 +1,4 @@
+# Shell aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias gs='git status -sb'
