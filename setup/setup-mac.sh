@@ -50,6 +50,7 @@ fi
 echo "Installing Node and Python with mise"
 mise use -g node@22
 mise use -g python@3.14
+mise use -g uv@latest # uv is the package manager for Python. instead of using pip, use uv.
 
 echo "Configure global git identity"
 read -r -p "Git user name: " GIT_NAME
